@@ -1,10 +1,10 @@
 package tabuleiro;
 
-public class posicao {
+public class Posicao {
 	private int linha;
 	private int coluna;
 	
-	public posicao(int linha, int coluna) {
+	public Posicao(int linha, int coluna) {
 		this.linha = linha;
 		this.coluna = coluna;
 	}
@@ -26,6 +26,7 @@ public class posicao {
 	}
 	
 	@Override
+	 //mostra como deve ser imprimido na tela
 	public String toString() {
 		return linha +"," + coluna;
 		
